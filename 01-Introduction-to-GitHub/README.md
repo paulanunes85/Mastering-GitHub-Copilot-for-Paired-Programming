@@ -1,38 +1,38 @@
 <header>
 
-# Introduction to GitHub
+# Introdução ao GitHub
 
-This learning module dives into the fundamental aspects of GitHub, a premier AI-powered developer platform that facilitates collaborative software development. Aimed at new developers, GitHub novices, and students, the module provides a hands-on experience within a GitHub repository, offering a comprehensive overview of essential features.
+Este módulo de aprendizado mergulha nos aspectos fundamentais do GitHub, uma plataforma de desenvolvedor alimentada por IA que facilita o desenvolvimento colaborativo de software. Destinado a novos desenvolvedores, novatos no GitHub e estudantes, o módulo oferece uma experiência prática dentro de um repositório GitHub, oferecendo uma visão geral abrangente dos recursos essenciais.
 
-People use GitHub everyday to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. 
+As pessoas usam o GitHub todos os dias para construir algumas das tecnologias mais avançadas do mundo. Seja visualizando dados ou criando um novo jogo, há toda uma comunidade e um conjunto de ferramentas no GitHub que podem ajudá-lo a fazer isso ainda melhor.
 
 </header>
 
-- **Who is this for**: New developers, new GitHub users, and students.
-- **What you'll learn**: We'll introduce repositories, branches, commits, and pull requests.
-- **What you'll build**: We'll make a short Markdown file you can use as your [profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
-- **Prerequisites**: None. This course is a great introduction for your first day on GitHub.
-- **Timing**: This course takes less than one hour to complete.
+- **Para quem é isso:** Novos desenvolvedores, novos usuários do GitHub e estudantes.
+- **O que você aprenderá:** Vamos introduzir repositórios, branches, commits e pull requests.
+- **O que você construirá:** Faremos um pequeno arquivo Markdown que você pode usar como seu [profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
+- **Pré-requisitos:** Nenhum. Este curso é uma ótima introdução para seu primeiro dia no GitHub.
+- **Tempo:** Este curso leva menos de uma hora para ser concluído.
 
-This module will help you:
+Este módulo irá ajudá-lo a:
 
-1. Identify the fundamental features of GitHub.
-2. Learn repository management best practices.
-3. Gain an understanding of the GitHub flow, including branches, commits, and pull requests.
-4. Explore the collaborative features of GitHub by reviewing issues and discussions.
-5. Recognize how to manage your GitHub notifications and subscriptions.
+1. Identificar os recursos fundamentais do GitHub.
+2. Aprender as melhores práticas de gerenciamento de repositórios.
+3. Ganhar uma compreensão do fluxo do GitHub, incluindo branches, commits e pull requests.
+4. Explorar os recursos colaborativos do GitHub revisando issues e discussões.
+5. Reconhecer como gerenciar suas notificações e assinaturas do GitHub.
 
  
-## Prerequisite reading: 
+## Leitura pré-requisito: 
 
-- [Introduction to GitHub](https://learn.microsoft.com/training/modules/introduction-to-github/?WT.mc_id=academic-113596-abartolo)
+- [Introdução ao GitHub](https://learn.microsoft.com/training/modules/introduction-to-github/?WT.mc_id=academic-113596-abartolo)
 
-- What is GitHub? (Video below)
-- [![What is GitHub](https://img.youtube.com/vi/pBy1zgt0XPc/0.jpg)](https://www.youtube.com/watch?v=pBy1zgt0XPc)
+- O que é GitHub? (Vídeo abaixo)
+- [![O que é GitHub?](https://img.youtube.com/vi/pBy1zgt0XPc/0.jpg)](https://www.youtube.com/watch?v=pBy1zgt0XPc)
  
    
 
-### How to start this course
+### Como iniciar este curso
 
 <!-- For start course, run in JavaScript:
 'https://github.com/new?' + new URLSearchParams({
@@ -45,14 +45,14 @@ This module will help you:
 }).toString()
 -->
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=introduction-to-github&owner=%40me&name=skills-introduction-to-github&description=My+clone+repository&visibility=public)
+[![Iniciar Curso](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=introduction-to-github&owner=%40me&name=skills-introduction-to-github&description=My+clone+repository&visibility=public)
 
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions?WT.mc_id=academic-113596-abartolo).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+1. lique com o botão direito em **Iniciar curso** e abra o link em uma nova aba.
+2. Na nova aba, a maioria dos prompts será preenchida automaticamente para você.
+   - Para o proprietário, escolha sua conta pessoal ou uma organização para hospedar o repositório.
+   - Recomendamos criar um repositório público, pois repositórios privados [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions?WT.mc_id=academic-113596-abartolo).
+   - Role para baixo e clique no botão **Criar repositório** na parte inferior do formulário.
+3. Após a criação do seu novo repositório, espere cerca de 20 segundos e atualize a página. Siga as instruções passo a passo no README do novo repositório.
 
 <footer>
 
@@ -63,4 +63,4 @@ This module will help you:
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Obtenha ajuda: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
