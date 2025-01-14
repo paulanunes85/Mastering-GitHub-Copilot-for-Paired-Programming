@@ -1,25 +1,25 @@
 <header>
 
-# Using Advanced GitHub Copilot Features
+# Usando Recursos Avançados do GitHub Copilot
 
-There is more to GitHub Copilot than code suggestions. As a Software Engineer, you will often find yourself trying to understand existing code, and enhance it with documentation, tests, and automation. 
+O GitHub Copilot oferece mais do que apenas sugestões de código. Como Engenheiro de Software, você frequentemente se encontrará tentando entender o código existente e aprimorá-lo com documentação, testes e automação.
 
-In this module, you'll use GitHub Copilot advanced features that will allow you to interactively work with your code and apply suggestions and knowledge efficiently.
+Neste módulo, você usará os recursos avançados do GitHub Copilot que permitirão trabalhar interativamente com seu código e aplicar sugestões e conhecimentos de forma eficiente.
 
-You'll use an existing HTTP API based on Python to make changes, bug fixes, documentation, and tests for a new endpoint that you will implement.
+Você usará uma API HTTP existente baseada em Python para fazer alterações, correções de bugs, documentação e testes para um novo endpoint que você implementará.
+
 </header>
 
+- **Para quem é isso:** Desenvolvedores, Engenheiros DevOps, Gerentes de desenvolvimento de software, Testadores.
+- **O que você aprenderá:** Usar recursos avançados do GitHub Copilot para testar, documentar e trabalhar com código.
+- **O que você construirá:** Uma nova rota de API HTTP, juntamente com documentação e testes para verificar sua correção.
+- **Pré-requisitos:** Para usar o GitHub Copilot, você deve ter uma assinatura ativa do GitHub Copilot Business ou Enterprise. Inscreva-se para Copilot Free para VS Code apenas para fim de treinamento [Copilot for free para VS Code](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-free-plan?view=vs-2022).
+- **Tempo:** Este módulo pode ser concluído em menos de uma hora.
 
-- **Who this is for**: Developers, DevOps Engineers, Software development managers, Testers.
-- **What you'll learn**: Using Advanced GitHub Copilot features to test, document, and work with code.
-- **What you'll build**: A new HTTP API route, along with documentation and tests to verify its correctness.
-- **Prerequisites**: To use GitHub Copilot you must have an active GitHub Copilot subscription. Sign up for 30 days free [Copilot](https://github.com/settings/copilot).
-- **Timing**: This module can be completed in under an hour.
+Ao final deste módulo, você adquirirá as habilidades para:
 
-By the end of this module, you'll aquire the skills to be able to:
-
-- Use advanced GitHub Copilot features like inline chat, slash commands, and agents.
-- Interact with GitHub Copilot with deeper context on your project and ask questions about it.
+- Usar recursos avançados do GitHub Copilot, como chat inline, comandos de barra e agentes.
+- Interagir com o GitHub Copilot com um contexto mais profundo sobre seu projeto e fazer perguntas sobre ele.
 
 ## Prerequisite reading:
 - [Introduction to prompt engineering with GitHub Copilot](https://learn.microsoft.com/training/modules/introduction-prompt-engineering-with-github-copilot//?WT.mc_id=academic-113596-abartolo)
@@ -97,19 +97,14 @@ Now that you've used GitHub Copilot to generate and explain code, you can also e
 
 🚀 Congratulations, through the exercise, you have used GitHub Copilot with many different features that will allow you to work better with different projects. You interactively used some features to write tests, documentation, and find more about existing code..
 
-## Legal Notices
-
-Microsoft and any contributors grant you a license to the Microsoft documentation and other content
-in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
-see the [LICENSE](LICENSE) file, and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the
-[LICENSE-CODE](LICENSE-CODE) file.
-
-Microsoft, Windows, Microsoft Azure and/or other Microsoft products and services referenced in the documentation
-may be either trademarks or registered trademarks of Microsoft in the United States and/or other countries.
-The licenses for this project do not grant you rights to use any Microsoft names, logos, or trademarks.
-Microsoft's general trademark guidelines can be found at http://go.microsoft.com/fwlink/?LinkID=254653.
-
-Privacy information can be found at https://privacy.microsoft.com/en-us/
-
-Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents,
-or trademarks, whether by implication, estoppel or otherwise.
+## Avisos Legais
+ 
+A Microsoft e quaisquer colaboradores concedem a você uma licença para a documentação da Microsoft e outros conteúdos neste repositório sob a [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
+veja [LICENSE](LICENSE) e concedem a você uma licença para qualquer código no repositório sob a  [MIT License](https://opensource.org/licenses/MIT), consulte
+[LICENSE-CODE](LICENSE-CODE)
+ 
+Microsoft, Windows, Microsoft Azure e/ou outros produtos e serviços da Microsoft referenciados na documentação podem ser marcas registradas ou marcas registradas da Microsoft nos Estados Unidos e/ou em outros países. As licenças para este projeto não concedem a você direitos de uso de quaisquer nomes, logotipos ou marcas registradas da Microsoft. As diretrizes gerais de marcas registradas da Microsoft podem ser encontradas em http://go.microsoft.com/fwlink/?LinkID=254653.
+ 
+As informações de privacidade podem ser encontradas em https://privacy.microsoft.com/en-us/
+ 
+A Microsoft e quaisquer colaboradores reservam todos os outros direitos, sejam sob seus respectivos direitos autorais, patentes, ou marcas registradas, seja por implicação, estoppel ou de outra forma.
