@@ -22,34 +22,39 @@ Ao final deste módulo, você adquirirá as habilidades para:
 - Interagir com o GitHub Copilot com um contexto mais profundo sobre seu projeto e fazer perguntas sobre ele.
 
 ## Prerequisite reading:
-- [Introduction to prompt engineering with GitHub Copilot](https://learn.microsoft.com/training/modules/introduction-prompt-engineering-with-github-copilot//?WT.mc_id=academic-113596-abartolo)
+- [Introdução à engenharia de prompts com GitHub Copilot](https://learn.microsoft.com/training/modules/introduction-prompt-engineering-with-github-copilot//?WT.mc_id=academic-113596-abartolo)
 - [Using advanced GitHub Copilot features](https://learn.microsoft.com/training/modules/advanced-github-copilot/?WT.mc_id=academic-113596-abartolo)
 
-## Requirements
+## Requisitos
 
-1. Enable your [GitHub Copilot service](https://github.com/github-copilot/signup)
-1. Open [this repository with Codespaces](https://codespaces.new/MicrosoftDocs/mslearn-advanced-copilot)
+1. Habilite seu [GitHub Copilot service](https://github.com/github-copilot/signup)
+1. Abra [this repository with Codespaces](https://codespaces.new/MicrosoftDocs/mslearn-advanced-copilot)
 
-## 💪🏽 Exercise
+## 💪🏽 Exercício
 
-**Right click the following Codespaces button to open your Codespace in a new tab**
+**Clique com o botão direito no botão Codespaces a seguir para abrir seu Codespace em uma nova aba**
  
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/MicrosoftDocs/mslearn-copilot-codespaces-python)
 
-The current API is not exposing country/{country} which needs to be implemented to list cities. The route should allow only GET HTTP requests with a JSON response providing information from the historical high and low for that country, city, and given month.
+A API atual não está expondo country/{country}, que precisa ser implementado para listar cidades. A rota deve permitir apenas solicitações HTTP GET com uma resposta JSON fornecendo informações sobre os máximos e mínimos históricos para aquele país, cidade e mês específico.
 
-As with any implementation, this addition should include at least one test function to work with the pytest runner and test framework. 
+Como em qualquer implementação, essa adição deve incluir pelo menos uma função de teste para funcionar com o pytest runner e o framework de teste.
 
-### 🛠 Step 1: Add a new route 
-On our first exercise we will create a new route in our API. Go to the main.py file, and by using the inline chat with the following command `ctrl` + `i` (on Windows) or  `cmd` + `i`(on Mac) ask GitHub Copilot to help you create a new API that shows you the cities of a country. 
+### 🛠 Passo 1: Adicionar uma nova rota 
 
-Use the following prompt in inline-chat:
+No nosso primeiro exercício, criaremos uma nova rota em nossa API. Vá para o arquivo `main.py` e, usando o chat inline com o seguinte comando `ctrl + i` (no Windows) ou `cmd + i` (no Mac), peça ao GitHub Copilot para ajudá-lo a criar uma nova API que mostre as cidades de um país.
+
+Use o seguinte prompt no chat inline:
+
 
 ```
 Create a new route that exposes the cities of a country.
 ```
+```
+Crie uma nova rota que exponha as cidades de um país.
+```
 
-This prompt should give you something similar like this:
+Este prompt deve fornecer algo semelhante a isto:
 
 
 ```python
@@ -59,43 +64,58 @@ def cities(country: str):
     return list(data[country].keys())
 
 ```
+```python
+# Crie uma nova rota que exponha as cidades de um país:
+@app.get('/countries/{country}')
+def cities(country: str):
+    return list(data[country].keys())
 
-> [!NOTE]
-> Try your new route and refine your prompt until the result is as desired.
+```
 
-### 🔎 Step 2: Create a test
-Now that you have created a new route, let's create a test with Copilot Chat for this route that uses Spain as the country. Remember to select your code and ask Copilot Chat to help you with this specific API that we just have created.
 
-Use the following prompt with GitHub Copilot Chat:
+> [!NOTA]
+> Tente sua nova rota e refine seu prompt até que o resultado seja o desejado.
+
+### 🔎 Passo 2: Criar um teste
+Agora que você criou uma nova rota, vamos criar um teste com o Copilot Chat para essa rota que usa a Espanha como país. Lembre-se de selecionar seu código e pedir ao Copilot Chat para ajudá-lo com esta API específica que acabamos de criar.
+
+Use o seguinte prompt com o GitHub Copilot Chat:
 
 ```
 /tests help me to create a new test for this route that uses Spain as the country.
+```
+```
+/tests ajude-me a criar um novo teste para esta rota que usa a Espanha como país.
 ```
 
 ![Copilot Chat image example](https://raw.githubusercontent.com/MicrosoftDocs/mslearn-advanced-copilot/main/images/ideascopilot.png)
 
 
-Once Copilot has helped you to create your test, try it. If this is not functioning as expected, feel free to share those details with Copilot in the chat. For example:
+Depois que o Copilot o ajudar a criar seu teste, experimente. Se não estiver funcionando como esperado, sinta-se à vontade para compartilhar esses detalhes com o Copilot no chat. Por exemplo:
 
 ```
 This test is not quite right, it is not including cities that doesn't exist. Only Seville is part of the API.
 ```
+```
+Este teste não está correto, não está incluindo cidades que não existem. Apenas Sevilha faz parte da API.
+```
 
-It should give you another solution. Keep trying until you achieve the desired result.
+Ele deve fornecer outra solução. Continue tentando até obter o resultado desejado.
 
-### 🐍 Step 3: Use an agent to write the project
-During this step we will be using an agent (workspace) to write the project documentation on how to run this project. In the GitHub Copilot Chat, we will try the following prompt:
+### 🐍 Passo 3: Usar um agente para escrever o projeto
+Durante esta etapa, usaremos um agente (workspace) para escrever a documentação do projeto sobre como executá-lo. No GitHub Copilot Chat, tentaremos o seguinte prompt:
 
 `> @workspace help me to use an agent to write the project documentation on how to run it .`
+`> @workspace ajude-me a usar um agente para escrever a documentação do projeto sobre como executá-lo.`
 
-Finally, verify the new endpoint is working by trying it out by going to the `/docs` endpoint and confirming that the endpoint shows up.
+Finalmente, verifique se o novo endpoint está funcionando testando-o acessando o endpoint `/docs` e confirmando que o endpoint aparece.
 
 
-### 💡 Step 4: Using Slash Commands
+### 💡 Passo 4: Usando Comandos de Barra
 
-Now that you've used GitHub Copilot to generate and explain code, you can also explore some other alternative approaches to perform developer tasks. These extra challenges will help you dive deeper into other GitHub Copilot features in addition to the ones you already know. For these extra challenges, you will use the Chat interface. Click on the GitHub Copilot Chat icon on the left sidebar if you don't have it open yet.
+Agora que você usou o GitHub Copilot para gerar e explicar código, você também pode explorar algumas outras abordagens alternativas para realizar tarefas de desenvolvedor. Esses desafios extras ajudarão você a se aprofundar em outros recursos do GitHub Copilot além dos que você já conhece. Para esses desafios extras, você usará a interface de chat. Clique no ícone do GitHub Copilot Chat na barra lateral esquerda se ainda não estiver aberto.
 
-🚀 Congratulations, through the exercise, you have used GitHub Copilot with many different features that will allow you to work better with different projects. You interactively used some features to write tests, documentation, and find more about existing code..
+🚀 Parabéns, através do exercício, você usou o GitHub Copilot com muitos recursos diferentes que permitirão trabalhar melhor com diferentes projetos. Você usou interativamente alguns recursos para escrever testes, documentação e descobrir mais sobre o código existente.
 
 ## Avisos Legais
  
