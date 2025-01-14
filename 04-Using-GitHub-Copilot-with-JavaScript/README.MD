@@ -24,7 +24,7 @@ Ao final deste módulo, você adquirirá as habilidades para:
 - Aplicar o GitHub Copilot para melhorar seus projetos.
 
 
-## PLeitura pré-requisito:
+## Leitura pré-requisito:
 - [Introdução a engenharia de prompt com GitHub Copilot](https://learn.microsoft.com/training/modules/introduction-prompt-engineering-with-github-copilot//?WT.mc_id=academic-113596-abartolo)
 - [Usando GitHub Copilot com JavaScript](https://learn.microsoft.com/training/modules/introduction-copilot-javascript/?WT.mc_id=academic-113596-abartolo)
 
