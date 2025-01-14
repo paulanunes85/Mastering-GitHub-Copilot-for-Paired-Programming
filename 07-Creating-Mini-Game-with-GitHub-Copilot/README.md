@@ -58,9 +58,9 @@ Você já aprendeu um pouco sobre o GitHub Codespaces e o GitHub Copilot e como 
    # write 'hello world' to the console
    print('hello world')
    ```
-  ```python
+    ```python
    # escreva 'hello world' no console
-print('hello world')
+    print('hello world')
    ```
 
 4. Execute o aplicativo com o comando python app.py no terminal e verifique se o resultado é semelhante à seguinte mensagem do console:
