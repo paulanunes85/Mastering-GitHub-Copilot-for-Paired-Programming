@@ -105,8 +105,9 @@ Ele deve fornecer outra solução. Continue tentando até obter o resultado dese
 ### 🐍 Passo 3: Usar um agente para escrever o projeto
 Durante esta etapa, usaremos um agente (workspace) para escrever a documentação do projeto sobre como executá-lo. No GitHub Copilot Chat, tentaremos o seguinte prompt:
 
-`> @workspace help me to use an agent to write the project documentation on how to run it .`
-`> @workspace ajude-me a usar um agente para escrever a documentação do projeto sobre como executá-lo.`
+```> @workspace help me to use an agent to write the project documentation on how to run it .```
+
+```> @workspace ajude-me a usar um agente para escrever a documentação do projeto sobre como executá-lo.```
 
 Finalmente, verifique se o novo endpoint está funcionando testando-o acessando o endpoint `/docs` e confirmando que o endpoint aparece.
 
