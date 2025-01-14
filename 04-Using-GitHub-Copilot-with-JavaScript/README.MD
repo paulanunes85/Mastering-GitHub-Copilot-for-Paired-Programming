@@ -91,6 +91,9 @@ Uma vez destacado, pressione Ctrl + I (Windows) ou Cmd + I (Mac) e digite /expla
 ```
 This JavaScript code is written in React, a popular library for building user interfaces. The code defines a functional component named App. The App component is the root component of your application. It's where all other components (Header, Home, About, Portfolio, Footer) are being called and rendered. The App component returns a JSX (JavaScript XML) structure, which looks similar to HTML. This JSX structure defines what the App component should render on the screen. In the JSX, there is a div with an id of "main". Inside this div, several components are being rendered: Header, Home, About, Portfolio, and Footer. The Home component is being passed two props: name and title, both of which are properties of the siteProps object. The Footer component is being passed several props. The ...siteProps syntax is using the JavaScript spread operator to pass all properties of siteProps as separate props. In addition to the siteProps, two more props are being passed: primaryColor and secondaryColor. These are defined as constants at the top of the file. Remember, props (short for properties) in React are how components talk to each other. If you think of components as functions, then props are the arguments to these functions. They are passed from the parent component (in this case, App) to the child components (Header, Home, About, Portfolio, Footer).
 ```
+```
+Este código JavaScript é escrito em React, uma biblioteca popular para construir interfaces de usuário. O código define um componente funcional chamado App. O componente App é o componente raiz da sua aplicação. É onde todos os outros componentes (Header, Home, About, Portfolio, Footer) são chamados e renderizados. O componente App retorna uma estrutura JSX (JavaScript XML), que se parece com HTML. Esta estrutura JSX define o que o componente App deve renderizar na tela. No JSX, há uma div com um id de "main". Dentro desta div, vários componentes estão sendo renderizados: Header, Home, About, Portfolio e Footer. O componente Home está recebendo dois props: name e title, ambos são propriedades do objeto siteProps. O componente Footer está recebendo vários props. A sintaxe ...siteProps está usando o operador spread do JavaScript para passar todas as propriedades de siteProps como props separadas. Além de siteProps, mais dois props estão sendo passados: primaryColor e secondaryColor. Estes são definidos como constantes no topo do arquivo. Lembre-se, props (abreviação de propriedades) em React são como os componentes se comunicam entre si. Se você pensar nos componentes como funções, então props são os argumentos dessas funções. Eles são passados do componente pai (neste caso, App) para os componentes filhos (Header, Home, About, Portfolio, Footer).
+```
 
 Vamos nos aprofundar um pouco mais. Observe como o Copilot Chat agora fornece uma sugestão de pergunta de acompanhamento para você fazer. Clique na pergunta sugerida pelo GitHub Copilot encontrada na parte inferior da janela, geralmente começando com "Qual é o propósito..." e revise a resposta fornecida. Por exemplo, se a pergunta sugerida pelo GitHub Copilot for a seguinte:
 
@@ -100,6 +103,9 @@ Você deve obter uma resposta semelhante a esta:
 
 ```
 Props (short for properties) in React are used for passing data from one component to another, just like function arguments. They are read-only and help to make components reusable and dynamic. In your code, for example, the Home component is passed name and title as props. This means that the Home component can use these values to display dynamic content. The Footer component is also passed several props, including all properties of siteProps and the primaryColor and secondaryColor constants. Here's an analogy: think of a component as a custom HTML element and props as the attributes of that element. Just like you can pass different attributes to an HTML element (like <img src="image.jpg" alt="An image">), you can pass different props to a React component (like <Home name="John" title="Developer" />). This makes your components more flexible and reusable. For instance, you could use the same Home component with different props to display different content.
+```
+```
+Props (abreviação de propriedades) em React são usados para passar dados de um componente para outro, assim como argumentos de função. Eles são somente leitura e ajudam a tornar os componentes reutilizáveis e dinâmicos. No seu código, por exemplo, o componente Home recebe name e title como props. Isso significa que o componente Home pode usar esses valores para exibir conteúdo dinâmico. O componente Footer também recebe vários props, incluindo todas as propriedades de siteProps e as constantes primaryColor e secondaryColor. Aqui está uma analogia: pense em um componente como um elemento HTML personalizado e props como os atributos desse elemento. Assim como você pode passar diferentes atributos para um elemento HTML (como <img src="image.jpg" alt="Uma imagem">), você pode passar diferentes props para um componente React (como <Home name="John" title="Developer" />). Isso torna seus componentes mais flexíveis e reutilizáveis. Por exemplo, você poderia usar o mesmo componente Home com diferentes props para exibir diferentes conteúdos.
 ```
 
 Você notou que depois de clicar na pergunta sugerida na janela do Copilot Chat, ele usou um comando semelhante ao seguinte para fazer a pergunta:
@@ -122,6 +128,9 @@ Uma animação pode tornar a seção de mídia social mais atraente. Peça ajuda
 
 ```css
 /* add an amazing animation to the social icons */
+```
+```css
+/* adicione uma animação incrível aos ícones sociais */
 ```
 
 A sugestão do Copilot deve ser semelhante ao seguinte:
