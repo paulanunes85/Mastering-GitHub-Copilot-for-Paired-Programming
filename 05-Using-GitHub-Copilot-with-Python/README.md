@@ -34,11 +34,11 @@ Ao final deste módulo, você adquirirá as habilidades para:
 
 **Clique com o botão direito no botão Codespaces a seguir para abrir seu Codespace em uma nova aba**
  
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/MicrosoftDocs/mslearn-copilot-codespaces-python)
+[![Abrir GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/MicrosoftDocs/mslearn-copilot-codespaces-python)
 
 A API já tem um único endpoint para gerar um token. Vamos atualizar a API adicionando um novo endpoint que aceita texto e retorna uma lista de tokens.
 
-### 🛠 Step 1: Add a Pydantic model
+### 🛠 Passo 1: Adicionar um modelo Pydantic
 
 Go to the `main.py` file, navigate to the bottom of the provided code, select **Ctrl + I (PC)** or **Cmd + I (Mac)** and copy the following into the provided GitHub Copilot Chat box so that it can generate a `Pydantic` model for you: 
 
@@ -109,8 +109,7 @@ For this final challenge, you aren't required to have any open files. Use the fo
 @workspace I want to provide instructions on how to run this application using the uvicorn webserver, I also need to provide instructions on how to install the dependencies properly and what are some characteristics of the FastAPI framework. I will use this to improve the README.md file
 ```
 
-The result should be a very good explanation on FastAPI, how to run the application, and how to get dependencies installed. A report at the very top of the response may include all the references used to determine what files it needed to use to provide the right context for GitHub Copilot.
-
+O resultado deve ser uma explicação muito boa sobre o FastAPI, como executar o aplicativo e como instalar as dependências. Um relatório no topo da resposta pode incluir todas as referências usadas para determinar quais arquivos ele precisava usar para fornecer o contexto correto para o GitHub Copilot.
 
 
 ## Avisos Legais
