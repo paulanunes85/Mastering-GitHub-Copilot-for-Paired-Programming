@@ -36,20 +36,20 @@ Ao final deste módulo, você adquirirá as habilidades para:
 
 
 
-## 💪🏽 Exercise
+## 💪🏽 Exercício
 
-**Right click the following Codespaces button to open your Codespace in a new tab**
+**Clique com o botão direito no botão Codespaces a seguir para abrir seu Codespace em uma nova aba**
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=526682619)
+[![Abrir GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=526682619)
 
-In this template portfolio, we have a React based web application ready for you to easily customize and deploy using only your web browser.
+Neste portfólio de modelo, temos um aplicativo web baseado em React pronto para você personalizar e implantar facilmente usando apenas seu navegador da web.
 
-**Note:** Please disreguard the instructions given within the GitHub Codespace. For theis labs, be sure to follow the intructions found here.
+**Nota:** Por favor, desconsidere as instruções fornecidas dentro do GitHub Codespace. Para estes laboratórios, certifique-se de seguir as instruções encontradas aqui.
 
 
-### 🛠 Step 1: Customize the web app
+### 🛠 Passo 1: Personalize o aplicativo web
 
-Customize the portfolio with your own links. Go to `src/App.jsx` and update the `siteProps` with your information. The `siteProps` variable is a JavaScript object that holds key value pairs used to customize the site, it should look like this:
+Personalize o portfólio com seus próprios links. Vá para src/App.jsx e atualize o siteProps com suas informações. A variável siteProps é um objeto JavaScript que contém pares de chave e valor usados para personalizar o site, deve parecer com isso:
 
 ```javascript
 const siteProps = {
@@ -64,9 +64,9 @@ const siteProps = {
   youTube: "Code",
 };
 ```
-### 📖 Step 2: Explain the code
+### 📖 Passo 2: Explique o código
 
-Now lets use the slash command to explain what a portion of the code does.  Highlight the following code:
+Agora vamos usar o comando de barra para explicar o que uma parte do código faz. Destaque o seguinte código:
 
 ```javascript
 };
@@ -86,45 +86,45 @@ const App = () => {
   );
 };
 ```
-Once highlighted, hit Ctrl + I (Windows) or Cmd + I (Mac) and enter **/explain**.  You should receive a response in the Copilot Chat window similar to this:
+Uma vez destacado, pressione Ctrl + I (Windows) ou Cmd + I (Mac) e digite /explain. Você deve receber uma resposta na janela do Copilot Chat semelhante a esta:
 
 ```
 This JavaScript code is written in React, a popular library for building user interfaces. The code defines a functional component named App. The App component is the root component of your application. It's where all other components (Header, Home, About, Portfolio, Footer) are being called and rendered. The App component returns a JSX (JavaScript XML) structure, which looks similar to HTML. This JSX structure defines what the App component should render on the screen. In the JSX, there is a div with an id of "main". Inside this div, several components are being rendered: Header, Home, About, Portfolio, and Footer. The Home component is being passed two props: name and title, both of which are properties of the siteProps object. The Footer component is being passed several props. The ...siteProps syntax is using the JavaScript spread operator to pass all properties of siteProps as separate props. In addition to the siteProps, two more props are being passed: primaryColor and secondaryColor. These are defined as constants at the top of the file. Remember, props (short for properties) in React are how components talk to each other. If you think of components as functions, then props are the arguments to these functions. They are passed from the parent component (in this case, App) to the child components (Header, Home, About, Portfolio, Footer).
 ```
 
-Lets dive a little deeper.  Notice how Copilot Chat now provides a follow up question suggestion for you to ask. Click on the question suggested by GitHub Copilot found at the bottom of the window usually starting with "What is the purpose..." and review the answer provided. As an example, should the question GitHub Copilot provide be the following:
+Vamos nos aprofundar um pouco mais. Observe como o Copilot Chat agora fornece uma sugestão de pergunta de acompanhamento para você fazer. Clique na pergunta sugerida pelo GitHub Copilot encontrada na parte inferior da janela, geralmente começando com "Qual é o propósito..." e revise a resposta fornecida. Por exemplo, se a pergunta sugerida pelo GitHub Copilot for a seguinte:
 
-What is the purpose of using props in React components? 
+Qual é o propósito de usar props em componentes React?
 
-You should get an answer similar to this:
+Você deve obter uma resposta semelhante a esta:
 
 ```
 Props (short for properties) in React are used for passing data from one component to another, just like function arguments. They are read-only and help to make components reusable and dynamic. In your code, for example, the Home component is passed name and title as props. This means that the Home component can use these values to display dynamic content. The Footer component is also passed several props, including all properties of siteProps and the primaryColor and secondaryColor constants. Here's an analogy: think of a component as a custom HTML element and props as the attributes of that element. Just like you can pass different attributes to an HTML element (like <img src="image.jpg" alt="An image">), you can pass different props to a React component (like <Home name="John" title="Developer" />). This makes your components more flexible and reusable. For instance, you could use the same Home component with different props to display different content.
 ```
 
-Did you notice after you clicked the suggested question in the Copilot Chat windows, it used a command similar to the following to ask the question:
+Você notou que depois de clicar na pergunta sugerida na janela do Copilot Chat, ele usou um comando semelhante ao seguinte para fazer a pergunta:
 
 ```
-@workspace /explain What is the purpose of using props in React components?
+@workspace /explain Qual é o propósito de usar props em componentes React?
 ```
 
-The @workspace agent, like Copilot, fills in missing details, helping when humans overlook or don't fully describe everything they see. When prompted, Copilot takes a different approach. Instead of immediately responding, it first examines the files and folders in the workspace in steps:
+O agente @workspace, como o Copilot, preenche detalhes ausentes, ajudando quando os humanos negligenciam ou não descrevem completamente tudo o que veem. Quando solicitado, o Copilot adota uma abordagem diferente. Em vez de responder imediatamente, ele primeiro examina os arquivos e pastas no workspace em etapas:
 
-1. It checks the names of files/folders to see which could be relevant.
-2. It reads the contents of files, sometimes in full, sometimes partially due to memory limits.
-3. It creates context from the collected information.
-4. It responds, using both the prompt's context and the information it gathered.
+1. Ele verifica os nomes dos arquivos/pastas para ver quais podem ser relevantes.
+2. Ele lê o conteúdo dos arquivos, às vezes na íntegra, às vezes parcialmente devido a limites de memória.
+3. Ele cria contexto a partir das informações coletadas.
+4. Ele responde, usando tanto o contexto do prompt quanto as informações que reuniu.
 
 
-### 🔎 Step 3: Animate the social media icons with a prompt
+### 🔎 Passo 3: Animar os ícones de mídia social com um prompt
 
-An animation can make the social media section more eye-catching. Ask Copilot’s help to animate the icons. Jump to the end of the file and write the following prompt in the `src/styles.css` file:
+Uma animação pode tornar a seção de mídia social mais atraente. Peça ajuda ao Copilot para animar os ícones. Vá até o final do arquivo e escreva o seguinte prompt no arquivo src/styles.css :
 
 ```css
 /* add an amazing animation to the social icons */
 ```
 
-The suggestion from Copilot should look similar to the following:
+A sugestão do Copilot deve ser semelhante ao seguinte:
 
 ```css
 img.socialIcon:hover {
@@ -145,18 +145,20 @@ img.socialIcon:hover {
 }
 ```
 
-### 🚀 Step 4: Find out how to run the app
-Open GitHub Copilot chat by clicking on the chat icon on the left side bar and use the input section to ask the following:
+### 🚀  Passo 4: Descubra como executar o aplicativo
+
+Abra o chat do GitHub Copilot clicando no ícone de chat na barra lateral esquerda e use a seção de entrada para perguntar o seguinte:
 
 ```
-@workspace I want to understand how can I run this React application
+@workspace Eu quero entender como posso executar este aplicativo React
 ```
 
-The prompts uses `@workspace` which is a special feature of GitHub Copilot chat that allows you to include more context for a more complete answer. Try out other queries using the chat panel for a more interactive workflow.
+Os prompts usam '@workspace', que é um recurso especial do chat do GitHub Copilot que permite incluir mais contexto para uma resposta mais completa. Experimente outras consultas usando o painel de chat para um fluxo de trabalho mais interativo.
 
-### Conclusion
-Your site should already be running in your Codespace, and the change will reload onto the page automatically. To see them, hover over one of your social media icons in the footer to see the magic!
+### Conclusão
 
-**Note:** Refresh the Codespace browser window if the hover effects do not work. 
+Seu site já deve estar em execução no seu Codespace, e a alteração será recarregada automaticamente na página. Para vê-las, passe o mouse sobre um dos seus ícones de mídia social no rodapé para ver a mágica!
 
-Congratulations, through the exercise, you have use GitHub Copilot to generate code and also done it in an interactive and fun way! You can use GitHub Copilot to not only generate code, but write documentation, test your applications and more.
+**Nota:** Atualize a janela do navegador do Codespace se os efeitos de hover não funcionarem.
+
+Parabéns, através do exercício, você usou o GitHub Copilot para gerar código e também fez isso de uma maneira interativa e divertida! Você pode usar o GitHub Copilot não apenas para gerar código, mas também para escrever documentação, testar suas aplicações e muito mais.
