@@ -1,5 +1,3 @@
-! Portugues-BR [Mastering GitHub Copilot for AI Paired Programming](./images/GitHub%20101%20-%20Curriculum%20v2.png)
-
 <h1 align="center"> Dominando o GitHub Copilot para Programação</h1>
 
 <h5 align="center">Revisão para Português Brasil @paulanunes85 - 2025</h5>
