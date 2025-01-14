@@ -1,5 +1,7 @@
 ! Portugues-BR [Mastering GitHub Copilot for AI Paired Programming](./images/GitHub%20101%20-%20Curriculum%20v2.png)
 
+<h5 align="center">Revisão para Português Brasil @paulanunes85</h5>
+
 # Dominando o GitHub Copilot para Programação
 
 Um curso de 8 aulas que ensina tudo o que você precisa saber sobre como aproveitar o GitHub Copilot e um recurso de Programação em Par com IA.
