@@ -15,7 +15,7 @@ Imagine um ambiente de desenvolvimento totalmente configurado ao seu alcance, ac
 - **O que você construirá:** Um codespace com arquivos devcontainer.json, personalizações e customizações.
 - **Pré-requisitos:** Você precisará saber o seguinte:
   - Uso do Visual Studio Code, [Visual Studio Code Docs](https://code.visualstudio.com/docs).
-  - Compreensão do uso do GitHub ou conclusão do módulo anterior [Introdução ao GitHub](https://github.com/WirelessLife/Mastering-GitHub-Copilot-for-Paired-Programming/blob/main/01-Introduction-to-GitHub/README.md?WT.mc_id=academic-113596-abartolo).
+  - Compreensão do uso do GitHub ou conclusão do módulo anterior [Introdução ao GitHub](01-Introduction-to-GitHub).
 - **Tempo:** Este curso pode ser concluído em menos de uma hora.
 
 Ao final deste módulo, você será capaz de:
