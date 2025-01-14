@@ -55,7 +55,6 @@ Ao final deste módulo, você será capaz de:
    - Role para baixo e clique no botão **Criar repositório** na parte inferior do formulário.
 3. Após a criação do seu novo repositório, espere cerca de 20 segundos e atualize a página. Siga as instruções passo a passo no README do novo repositório.
 
-<footer>
 ## Avisos Legais
  
 A Microsoft e quaisquer colaboradores concedem a você uma licença para a documentação da Microsoft e outros conteúdos neste repositório sob a [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
@@ -68,6 +67,8 @@ As informações de privacidade podem ser encontradas em https://privacy.microso
  
 A Microsoft e quaisquer colaboradores reservam todos os outros direitos, sejam sob seus respectivos direitos autorais, patentes, ou marcas registradas, seja por implicação, estoppel ou de outra forma.
 <!--
+<footer>
+
   <<< Author notes: Footer >>>
   Add a link to get support, GitHub status page, code of conduct, license link.
 -->
