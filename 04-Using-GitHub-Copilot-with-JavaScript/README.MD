@@ -14,7 +14,7 @@ Ao dominar o GitHub Copilot, você não apenas configurará repositórios no Cod
 - **Para quem é isso:** Desenvolvedores, Engenheiros DevOps, Gerentes de desenvolvimento de software, Testadores.
 - **O que você aprenderá:** Usar o GitHub Copilot para criar código e adicionar comentários ao seu trabalho.
 - **O que você construirá:** Arquivos JavaScript que terão código gerado pelo Copilot AI para sugestões de código e comentários.
-- **Pré-requisitos:** Para usar o GitHub Copilot, você deve ter uma assinatura ativa do GitHub Copilot. Inscreva-se para 30 dias gratuitos An external link was removed to protect your privacy..
+- **Pré-requisitos:** Para usar o GitHub Copilot, você deve ter uma assinatura ativa do GitHub Copilot Business ou Enterprise. Inscreva-se para Copilot Free para VS Code apenas para fim de treinamento [Copilot for free para VS Code](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-free-plan?view=vs-2022).
 - **Tempo:** Este módulo pode ser concluído em menos de uma hora.
 
 
