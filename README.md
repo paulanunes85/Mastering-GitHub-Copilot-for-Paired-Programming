@@ -23,7 +23,7 @@ Inscreva-se  [Microsoft for Startups Founders Hub](https://foundershub.startups.
 Aqui estão maneiras de contribuir para este curso:
 - Encontre erros de ortografia ou de código, [Raise an issue](https://github.com/microsoft/) or [Create a pull request](https://github.com/microsoft/)
 - Envie-nos suas ideias, talvez suas ideias para novas aulas ou exercícios, e nos avise como podemos melhorar.
-- 
+
 ## 📂 Cada aula inclui:
 
 - uma lição escrita localizada no README
