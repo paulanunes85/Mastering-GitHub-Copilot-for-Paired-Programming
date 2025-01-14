@@ -47,7 +47,7 @@ Este módulo irá ajudá-lo a:
 
 [![Iniciar Curso](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=introduction-to-github&owner=%40me&name=skills-introduction-to-github&description=My+clone+repository&visibility=public)
 
-1. lique com o botão direito em **Iniciar curso** e abra o link em uma nova aba.
+1. Clique com o botão direito em **Iniciar curso** e abra o link em uma nova aba.
 2. Na nova aba, a maioria dos prompts será preenchida automaticamente para você.
    - Para o proprietário, escolha sua conta pessoal ou uma organização para hospedar o repositório.
    - Recomendamos criar um repositório público, pois repositórios privados [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions?WT.mc_id=academic-113596-abartolo).
