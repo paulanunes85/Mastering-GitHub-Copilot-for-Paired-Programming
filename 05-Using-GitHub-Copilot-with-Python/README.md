@@ -21,22 +21,22 @@ Ao final deste módulo, você adquirirá as habilidades para:
 - Criar prompts para gerar sugestões do GitHub Copilot
 - Aplicar o GitHub Copilot para melhorar seus projetos.
 
-## Prerequisite reading:
+## Leitura pré-requisito:
 - [Introduction to prompt engineering with GitHub Copilot](https://learn.microsoft.com/training/modules/introduction-prompt-engineering-with-github-copilot//?WT.mc_id=academic-113596-abartolo)
 - [Using GitHub Copilot with Python](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/?WT.mc_id=academic-113596-abartolo)
 
-## Requirements
+## Requisitos
 
-1. Enable your [GitHub Copilot service](https://github.com/github-copilot/signup)
-1. Open [this repository with Codespaces](https://codespaces.new/MicrosoftDocs/mslearn-copilot-codespaces-python)
+1. Habilite seu [GitHub Copilot service](https://github.com/github-copilot/signup)
+1. Abra [this repository with Codespaces](https://codespaces.new/MicrosoftDocs/mslearn-copilot-codespaces-python)
 
-## 💪🏽 Exercise
+## 💪🏽 Exercício
 
-**Right click the following Codespaces button to open your Codespace in a new tab**
+**Clique com o botão direito no botão Codespaces a seguir para abrir seu Codespace em uma nova aba**
  
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/MicrosoftDocs/mslearn-copilot-codespaces-python)
 
-The API already has a single endpoint to generate a token. Let's update the API by adding a new endpoint that accepts text and returns a list of tokens.
+A API já tem um único endpoint para gerar um token. Vamos atualizar a API adicionando um novo endpoint que aceita texto e retorna uma lista de tokens.
 
 ### 🛠 Step 1: Add a Pydantic model
 
