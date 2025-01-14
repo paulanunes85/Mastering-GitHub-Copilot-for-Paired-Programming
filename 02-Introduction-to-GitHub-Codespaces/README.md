@@ -1,40 +1,39 @@
 <header>
 
-# Introduction to GitHub Codespaces
+# Introdução ao GitHub Codespaces
 
-Welcome to the exciting world of GitHub Codespaces, your cloud based coding resource. In this module, we'll delve into the realm of instant, cloud-based development environments, revolutionizing the way you approach coding. GitHub Codespaces provides a seamlessly integrated experience, offering a container equipped with the essential languages, tools, and utilities for development.
+Bem-vindo ao empolgante mundo do GitHub Codespaces, seu recurso de codificação baseado em nuvem. Neste módulo, vamos mergulhar no reino dos ambientes de desenvolvimento instantâneos e baseados em nuvem, revolucionando a maneira como você aborda a codificação. O GitHub Codespaces oferece uma experiência integrada, fornecendo um contêiner equipado com as linguagens, ferramentas e utilitários essenciais para o desenvolvimento.
 
-Throughout this learning journey, we will embark on a discovery of the Codespaces lifecycle and processes. Uncover the power to tailor your Codespace setup to suit your unique preferences and requirements. To solidify your understanding, we'll cap off the module with a hands-on exercise, allowing you to flex your coding muscles within the GitHub Codespaces environment.
+Ao longo desta jornada de aprendizado, embarcaremos na descoberta do ciclo de vida e dos processos do Codespaces. Descubra o poder de personalizar a configuração do seu Codespace para atender às suas preferências e requisitos exclusivos. Para solidificar seu entendimento, encerraremos o módulo com um exercício prático, permitindo que você flexione seus músculos de codificação dentro do ambiente do GitHub Codespaces.
 
-Imagine a fully configured development environment at your fingertips, accessible from any computer with an internet connection. GitHub Codespaces opens the door to a new era of collaborative and flexible coding. Let's dive in and unlock the full potential of cloud-based development with GitHub Codespaces!
+Imagine um ambiente de desenvolvimento totalmente configurado ao seu alcance, acessível de qualquer computador com conexão à internet. O GitHub Codespaces abre a porta para uma nova era de codificação colaborativa e flexível. Vamos mergulhar e desbloquear todo o potencial do desenvolvimento baseado em nuvem com o GitHub Codespaces!
 
 </header>
 
+- **Para quem é isso:** Desenvolvedores, Engenheiros DevOps, Gerentes de Engenharia, Gerentes de Produto.
+- **O que você aprenderá:** Como criar um codespace, enviar código de um codespace, selecionar uma imagem personalizada e personalizar um codespace.
+- **O que você construirá:** Um codespace com arquivos devcontainer.json, personalizações e customizações.
+- **Pré-requisitos:** Você precisará saber o seguinte:
+  - Uso do Visual Studio Code, [Visual Studio Code Docs](https://code.visualstudio.com/docs).
+  - Compreensão do uso do GitHub ou conclusão do módulo anterior [Introdução ao GitHub](https://github.com/WirelessLife/Mastering-GitHub-Copilot-for-Paired-Programming/blob/main/01-Introduction-to-GitHub/README.md?WT.mc_id=academic-113596-abartolo).
+- **Tempo:** Este curso pode ser concluído em menos de uma hora.
 
-- **Who this is for**: Developers, DevOps Engineers, Engineering Managers, Product Managers.
-- **What you'll learn**: How to create a codespace, push code from a codespace, select a custom image, and customize a codespace.
-- **What you'll build**: A codespace with devcontainer.json files, customizations, and personalizations.
-- **Prerequisites**: You'll need to know the following:
-  - Use of Visual Studio Code, [Visual Studio Code Docs](https://code.visualstudio.com/docs).
-  - Understanding of GitHub use or completion of the previous module [Introduction to GitHub](https://github.com/WirelessLife/Mastering-GitHub-Copilot-for-Paired-Programming/blob/main/01-Introduction-to-GitHub/README.md?WT.mc_id=academic-113596-abartolo).
-- **Timing**: This course can be completed in less than an hour.
+Ao final deste módulo, você será capaz de:
 
-By the end of this module, you'll be able to:
-
-1. Describe GitHub Codespaces.
-2. Explain the GitHub Codespace lifecycle and how to perform each step.
-3. Define the different customizations you can personalize with GitHub Codespaces.
+1. Descrever o GitHub Codespaces.
+2. Explicar o ciclo de vida do GitHub Codespaces e como realizar cada etapa.
+3. Definir as diferentes personalizações que você pode fazer no GitHub Codespaces.
 
 
-## Prerequisite reading: 
+## Leitura pré-requisito: 
 
 - [Code with GitHub Codespaces](https://learn.microsoft.com/training/modules/code-with-github-codespaces/?WT.mc_id=academic-113596-abartolo)
-- What is GitHub Codespaces? (Video playlist below)
-- [![What is Codespaces](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://www.youtube.com/watch?v=ozuDPmcC1io&list=PLmsFUfdnGr3wTl-NCblzcrEv2lFSX975-)
+- O que é GitHub Codespaces? (Playlist de vídeos abaixo)
+- [![O que é Codespaces?](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://www.youtube.com/watch?v=ozuDPmcC1io&list=PLmsFUfdnGr3wTl-NCblzcrEv2lFSX975-)
 
 
 
-### How to start this course
+### Como iniciar este curso
 
 <!-- For start course, run in JavaScript:
 'https://github.com/new?' + new URLSearchParams({
@@ -47,14 +46,14 @@ By the end of this module, you'll be able to:
 }).toString()
 -->
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=code-with-codespaces&owner=%40me&name=skills-code-with-codespaces&description=My+clone+repository&visibility=public)
+[![Iniciar Curso](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=code-with-codespaces&owner=%40me&name=skills-code-with-codespaces&description=My+clone+repository&visibility=public)
 
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions?WT.mc_id=academic-113596-abartolo).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+1. Clique com o botão direito em **Iniciar curso** e abra o link em uma nova aba.
+2. Na nova aba, a maioria dos prompts será preenchida automaticamente para você.
+   - Para o proprietário, escolha sua conta pessoal ou uma organização para hospedar o repositório.
+   - Recomendamos criar um repositório público, pois repositórios privados [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions?WT.mc_id=academic-113596-abartolo).
+   - Role para baixo e clique no botão **Criar repositório** na parte inferior do formulário.
+3. Após a criação do seu novo repositório, espere cerca de 20 segundos e atualize a página. Siga as instruções passo a passo no README do novo repositório.
 
 <footer>
 
@@ -65,4 +64,4 @@ By the end of this module, you'll be able to:
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Obtenha ajuda: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
